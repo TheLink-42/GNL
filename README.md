@@ -2,7 +2,8 @@
 
 ## MANDATORY
 
-Prototype: char	*get_next_line(int fd);
+Prototype: `char	*get_next_line(int fd)`
+
 Write a function that returns a line read from a file descriptor.
 
 *	Calling the function repeatedly (for example using a loop), will let you read the whole file the file descriptor is pointing to, line by line.
